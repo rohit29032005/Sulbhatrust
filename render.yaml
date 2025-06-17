@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sulbhatrust-php
+    env: docker
+    plan: free
+    repo: https://github.com/rohit29032005/Sulbhatrust
+    branch: main
+    dockerfilePath: Dockerfile
+    healthCheckPath: /
