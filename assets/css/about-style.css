@@ -4,10 +4,14 @@
   background-position: center;
   height: 400px; /* Make sure to set a height */
 }
+.scroll-target { scroll-margin-top: 190px; }
+    #overview, #history, #trustees, #team {
+        scroll-margin-top: 190px; /* Adjust this value as needed */
+    }
  .about-nav-section {
   background: white;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  /* position: sticky; */
+  position: sticky !important;
   top: 6.5rem;
   z-index: 100;
    width: 100%; 

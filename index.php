@@ -75,7 +75,7 @@
                             <div class="col-lg-6">
                                 <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                                     <div class="visual-container">
-                                        <img src="https://jaivakeel.org/images/home1/pic2.jpg" alt="Students in classroom" class="main-image">
+                                        <img src="assets\images\img5.jpg" alt="Students in classroom" class="main-image">
                                         <!-- <div class="floating-card card-1">
                                             <i class="fas fa-book"></i>
                                             <span>Quality Education</span>
@@ -331,7 +331,7 @@
   <div class="container">
     <div class="about-trust-preview row align-items-center">
       <div class="about-trust-image col-lg-6 mb-4 mb-lg-0">
-        <img src="https://internationalseva.org/wp-content/uploads/2023/12/Special-education-services-International-SEVA.jpeg" alt="Trust Preview" class="img-fluid rounded shadow-lg" />
+        <img src="assets/images/img12.jpg" alt="Trust Preview" class="img-fluid rounded shadow-lg" />
       </div>
       <div class="col-lg-6">
         <h2 class="display-5 fw-bold mb-4">About Sulabha Trust</h2>
@@ -434,7 +434,7 @@
                 <div class="col-md-4">
                     <div class="initiative-card">
                         <div class="initiative-image">
-                            <img src="https://www.perkins.org/wp-content/uploads/2019/10/vocation_training_img.jpg" alt="Education Program" class="img-fluid">
+                            <img src="assets\images\img6.jpg" alt="Education Program" class="img-fluid">
                             <!-- <div class="initiative-overlay">
                                 <i class="fas fa-book-open"></i>
                             </div> -->
@@ -454,7 +454,7 @@
                 <div class="col-md-4">
                     <div class="initiative-card">
                         <div class="initiative-image">
-                            <img src="https://www.globalgiving.org/pfil/35535/ph_35535_129120.jpg" alt="Skill Development" class="img-fluid">
+                            <img src="assets/images/img1.jpg" alt="Skill Development" class="img-fluid">
                             <!-- <div class="initiative-overlay">
                                 <i class="fas fa-tools"></i>
                             </div> -->
@@ -474,7 +474,7 @@
                 <div class="col-md-4">
                     <div class="initiative-card">
                         <div class="initiative-image">
-                            <img src="https://sanchetihospital.org/wp-content/uploads/2021/04/IMG-20210323-WA0013_2.jpg" alt="Women Empowerment" class="img-fluid">
+                            <img src="assets\images\img5.jpg" alt="Women Empowerment" class="img-fluid">
                             <!-- <div class="initiative-overlay">
                                 <i class="fas fa-female"></i>
                             </div> -->
@@ -494,7 +494,7 @@
                 <div class="col-md-4">
                     <div class="initiative-card">
                         <div class="initiative-image">
-                            <img src="https://udaan.org/wp-content/uploads/2019/03/Header-2-Image-1024x684.jpg" alt="Healthcare" class="img-fluid">
+                            <img src="assets\images\img3.jpg" alt="Healthcare" class="img-fluid">
                             <!-- <div class="initiative-overlay">
                                 <i class="fas fa-heartbeat"></i>
                             </div> -->

@@ -13,7 +13,7 @@
         <li class="nav-item">
             <button class="nav-link" data-bs-toggle="pill" data-bs-target="#archive">
                 <i class="fas fa-archive"></i>
-                Event Archive
+                Past Events
             </button>
         </li>
     </ul>
@@ -82,7 +82,8 @@
                                         </div>
                                     </div>
                                     <div class="event-actions">
-                                        <button class="btn btn-primary">View</button>
+                                      <!-- <a href="view-detail.php" class="btn btn-primary">View</a> -->
+                                      <a href="event-details.php?id=1" class="btn btn-danger">View</a> <!-- Digital Literacy -->
 
                                     </div>
                                 </div>
@@ -118,7 +119,8 @@
                                         </div>
                                     </div>
                                     <div class="event-actions">
-                                        <button class="btn btn-primary">View</button>
+                                        <!-- <button class="btn btn-primary">View</button> -->
+                                        <a href="event-details.php?id=2" class="btn btn-danger">View</a> <!-- Charity Marathon -->
                                        
                                     </div>
                                 </div>
@@ -154,7 +156,8 @@
                                         </div>
                                     </div>
                                     <div class="event-actions">
-                                        <button class="btn btn-primary">View</button>
+                                        <!-- <button class="btn btn-primary">View</button> -->
+                                        <a href="event-details.php?id=3" class="btn btn-danger">View</a> <!-- Health Awareness Camp -->
                                         <!-- <button class="btn btn-outline-secondary">Learn More</button> -->
                                     </div>
                                 </div>
@@ -229,7 +232,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button class="btn btn-outline-primary btn-sm">View Details</button>
+                <a href="archieve-detail.php?id=1" class="btn btn-danger">View Details</a>
                 <!-- <button class="btn btn-outline-secondary btn-sm">Download Report</button> -->
             </div>
         </div>
@@ -238,7 +241,7 @@
     <div class="col-md-6">
         <div class="timeline-card h-100">
             <div class="card-header">
-                <h5>Environmental Cleanup Drive</h5>
+                <h5>Inclusive Craft Making Programme</h5>
                 <!-- <span class="event-badge awareness">15 April</span> -->
             </div>
             <div class="card-body">
@@ -265,7 +268,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button class="btn btn-outline-primary btn-sm">View Details</button>
+               <a href="archieve-detail.php?id=2" class="btn btn-danger">View Details</a>
                 <!-- <button class="btn btn-outline-secondary btn-sm">Download Report</button> -->
             </div>
         </div>

@@ -55,7 +55,7 @@
                         <li class="nav-item"><a class="nav-link" href="event.php">Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Certification</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
-                          <li class="nav-item"><a class="nav-link" href="contact.php">Shop</a></li>
+                          <li class="nav-item"><a class="nav-link" href="shop.php">Shop</a></li>
                         <!-- Get Involve Dropdown -->
     <li class="nav-item dropdown">
         <a class=" btn btn-warning text-dark px-3 ms-2 e " href="#" id="getInvolveDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

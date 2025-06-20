@@ -1,4 +1,5 @@
 <?php $page = 'about';include 'header.php';?>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  <!-- About Hero Section -->
    <section class="about-hero-section">
     <div class="about-hero-bg"></div>
@@ -659,4 +660,40 @@
             </div>
         </div>
     </section>
+    // ...existing code...
+<script>
+$(document).ready(function() {
+    const totalOffset = 190; // Adjust as needed
+
+    // Smooth scrolling for anchor links in about-nav
+    $('.about-nav a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        var $this = $(this);
+        var target = $($this.attr('href'));
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top - totalOffset
+            }, 800);
+        }
+        // Set active class on all nav items
+        $('.about-nav a').removeClass('active');
+        $this.addClass('active');
+    });
+
+    // Update nav active state on scroll
+    const sections = ['#overview', '#history', '#trustees', '#team'];
+    $(window).on('scroll', function() {
+        let scrollPos = $(document).scrollTop() + totalOffset + 10; // +10 for better accuracy
+        let currentSection = sections[0];
+        for (let i = 0; i < sections.length; i++) {
+            if ($(sections[i]).length && $(sections[i]).offset().top <= scrollPos) {
+                currentSection = sections[i];
+            }
+        }
+        $('.about-nav a').removeClass('active');
+        $('.about-nav a[href="' + currentSection + '"]').addClass('active');
+    });
+});
+</script>
+// ...existing code...
 <?php include 'footer.php'; ?>
